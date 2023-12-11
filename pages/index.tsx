@@ -13,6 +13,16 @@ export default function Home() {
     setHeight(Math.sqrt(window.screen.width ** 2 + window.screen.height ** 2));
   }, []);
 
+  // enter fullscreen when clicked
+  useEffect(() => {
+    const elem = document.documentElement;
+    if (clicked) {
+      elem?.requestFullscreen();
+    } else if (document.fullscreenElement) {
+      document.exitFullscreen();
+    }
+  }, [clicked]);
+
   return (
     <main
       className={`relative flex min-h-screen flex-col items-center justify-center p-24 ${roboto.className} overflow-hidden`}
