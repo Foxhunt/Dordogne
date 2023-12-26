@@ -3,8 +3,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Roboto } from "next/font/google";
 import { useEffect, useState } from "react";
 
-const roboto = Roboto({ weight: ["400"], subsets: ["latin"] });
-
 export default function Home() {
   const [showWords, setShowWords] = useState(true);
   const [height, setHeight] = useState(0);
@@ -25,7 +23,7 @@ export default function Home() {
 
   return (
     <main
-      className={`relative flex min-h-screen flex-col items-center justify-center p-24 ${roboto.className} overflow-hidden`}
+      className={`relative flex min-h-screen flex-col items-center justify-center p-24 overflow-hidden`}
       onClick={() => setShowWords((showWords) => !showWords)}
     >
       <AnimatePresence>
