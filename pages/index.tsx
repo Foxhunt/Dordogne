@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const roboto = Roboto({ weight: ["400"], subsets: ["latin"] });
 
 export default function Home() {
-  const [clicked, setClicked] = useState(false);
+  const [showWords, setShowWords] = useState(true);
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
@@ -16,31 +16,56 @@ export default function Home() {
   // enter fullscreen when clicked
   useEffect(() => {
     const elem = document.documentElement;
-    if (clicked) {
+    if (!showWords) {
       elem?.requestFullscreen();
     } else if (document.fullscreenElement) {
       document.exitFullscreen();
     }
-  }, [clicked]);
+  }, [showWords]);
 
   return (
     <main
       className={`relative flex min-h-screen flex-col items-center justify-center p-24 ${roboto.className} overflow-hidden`}
-      onClick={() => setClicked((clicked) => !clicked)}
+      onClick={() => setShowWords((showWords) => !showWords)}
     >
       <AnimatePresence>
-        {clicked && (
+        {!showWords && (
           <motion.div
-            key={"circle"}
-            initial={{ opacity: 0.5, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0.5, scale: 0, transition: { duration: 0.5 } }}
-            transition={{ duration: 3 }}
+            key="circle"
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1, transition: { duration: 10 } }}
+            exit={{ opacity: 0, scale: 0, transition: { duration: 1 } }}
             style={{ height }}
-            className={`absolute bg-black rounded-full aspect-square`}
+            className={`absolute bg-black rounded-full aspect-square -z-50`}
           />
         )}
-        <OpeningWords showWhy={clicked} />
+        {showWords && (
+          <motion.div
+            key="color"
+            variants={{
+              exit: {
+                color: "#ffffff",
+                transition: {
+                  when: "beforeChildren",
+                  duration: 3,
+                },
+              },
+            }}
+            animate={{ color: "#000000" }}
+            exit={"exit"}
+            className="absolute flex flex-col items-center justify-center"
+          >
+            <motion.div
+              key="fade"
+              variants={{
+                exit: { opacity: 0, transition: { duration: 10 } },
+              }}
+              className="absolute flex flex-col items-center justify-center"
+            >
+              <OpeningWords />
+            </motion.div>
+          </motion.div>
+        )}
       </AnimatePresence>
     </main>
   );

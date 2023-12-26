@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { useIsPresent } from "framer-motion";
 
 const images = [
   "Bilder", // German
@@ -67,33 +68,30 @@ const why = [
   "Hvorfor", // Norwegian
 ];
 
-type OpeningWordsProps = {
-  showWhy: boolean;
-};
-
-export default function OpeningWords({ showWhy }: OpeningWordsProps) {
+export default function OpeningWords() {
   const [index, setIndex] = useState(0);
+  const isPresent = useIsPresent();
 
   useEffect(() => {
     const interval = setInterval(
       () => setIndex(Math.floor(Math.random() * images.length)),
-      1500
+      isPresent ? 1000 : 2000
     );
     return () => clearInterval(interval);
-  }, []);
+  }, [isPresent]);
 
   return (
     <AnimatePresence>
       <motion.div
         key={images[index]}
         initial={{ opacity: 0, y: 35 }}
-        animate={{ opacity: 1, y: 0, color: showWhy ? "white" : "black" }}
+        animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -35 }}
         transition={{ type: "spring", duration: 0.5, bounce: 0.2 }}
-        className={`absolute flex flex-row`}
+        className={`absolute flex flex-row-no-wrap items-center`}
       >
         <AnimatePresence initial={false}>
-          {showWhy && (
+          {!isPresent && (
             <motion.div
               key={"why"}
               initial={{ opacity: 0, x: 10 }}
@@ -107,7 +105,7 @@ export default function OpeningWords({ showWhy }: OpeningWordsProps) {
           <motion.div layout className="px-1">
             {images[index]}
           </motion.div>
-          {showWhy && (
+          {!isPresent && (
             <motion.div
               key={"?"}
               initial={{ opacity: 0, x: -10 }}
