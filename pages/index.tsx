@@ -1,16 +1,17 @@
 import OpeningWords from "@/components/openingWords";
 import { AnimatePresence, motion } from "framer-motion";
-import { Roboto } from "next/font/google";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [showWords, setShowWords] = useState(true);
-  const [height, setHeight] = useState(0);
+  const router = useRouter();
 
+  const [height, setHeight] = useState(0);
   useEffect(() => {
     setHeight(Math.sqrt(window.screen.width ** 2 + window.screen.height ** 2));
   }, []);
 
+  const [showWords, setShowWords] = useState(true);
   // enter fullscreen when clicked
   useEffect(() => {
     const elem = document.documentElement;
@@ -45,6 +46,7 @@ export default function Home() {
                 color: "#ffffff",
                 transition: {
                   when: "beforeChildren",
+                  staggerChildren: 3,
                   duration: 3,
                 },
               },
@@ -57,6 +59,11 @@ export default function Home() {
               key="fade"
               variants={{
                 exit: { opacity: 0, transition: { duration: 10 } },
+              }}
+              onAnimationComplete={(definition) => {
+                if (definition === "exit") {
+                  router.push("/story");
+                }
               }}
               className="absolute flex flex-col items-center justify-center"
             >
