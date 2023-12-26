@@ -37,7 +37,7 @@ export default function Dots() {
               <motion.mesh
                 key={"why?"}
                 initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
+                animate={{ scale: 1, transition: { duration: 5 } }}
                 exit={{ scale: 0 }}
                 whileHover={{ scale: 3 }}
               >
@@ -55,7 +55,8 @@ export default function Dots() {
                       scale: 0.2 + 0.2 * Math.random(),
                       ...getPoint(),
                       transition: {
-                        duration: 0.3,
+                        type: "spring",
+                        duration: 10,
                       },
                     }}
                     exit={{
