@@ -21,7 +21,7 @@ export default function Dots() {
         }}
       >
         <LayoutCamera position={[0, 0, 100]} />
-        <motion.ambientLight color={"white"} intensity={1000} />
+        <motion.ambientLight intensity={4} />
         <motion.group
           animate={{
             rotateY: Math.PI * 2,
@@ -42,21 +42,26 @@ export default function Dots() {
                 whileHover={{ scale: 3 }}
               >
                 <motion.sphereGeometry />
-                <motion.meshStandardMaterial color="white" />
+                <motion.meshStandardMaterial />
               </motion.mesh>
             )}
-            {Array.from({ length: 100 }).map(
+            {Array.from({ length: 1000 }).map(
               (_, i) =>
                 clicked && (
                   <motion.mesh
                     key={"why me?" + i}
-                    initial={{ scale: 0 }}
+                    initial={{ scale: 0.1 }}
                     animate={{
                       scale: 0.2 + 0.2 * Math.random(),
                       ...getPoint(),
                       transition: {
                         type: "spring",
                         duration: 10,
+                        scale: {
+                          repeat: Infinity,
+                          repeatType: "reverse",
+                          duration: 0.7 + 0.3 * Math.random(),
+                        },
                       },
                     }}
                     exit={{
@@ -66,14 +71,16 @@ export default function Dots() {
                       z: 0,
                       transition: { duration: 0.1 },
                     }}
-                    whileHover={{ scale: 3 }}
                   >
                     <motion.sphereGeometry />
                     <AnimatePresence initial>
                       {clicked && (
                         <motion.meshStandardMaterial
                           key={i + "why me?" + i}
-                          initial={{ opacity: 0.2 + 0.3 * Math.random() }}
+                          color={"#00aaf0"}
+                          initial={{
+                            opacity: 0.2 + 0.3 * Math.random(),
+                          }}
                           animate={{
                             opacity: 1,
                             transition: {
