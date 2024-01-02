@@ -1,116 +1,57 @@
-import { useState } from "react";
-
-import { AnimatePresence } from "framer-motion";
 import { LayoutCamera, MotionCanvas, motion } from "framer-motion-3d";
 
 import { extend } from "@react-three/fiber";
+import { CameraControls, Select } from "@react-three/drei";
+import {
+  EffectComposer,
+  Bloom,
+  DepthOfField,
+  ColorAverage,
+} from "@react-three/postprocessing";
+
 import * as three from "three";
 extend(three);
 
-export default function Dots() {
-  const [clicked, setClicked] = useState(true);
+import DotsGroup from "@/components/DotsGroup";
 
+export default function Dots() {
   return (
-    <main
-      className={`h-screen bg-black text-white`}
-      onClick={() => setClicked((clicked) => !clicked)}
-    >
+    <main className={`h-screen bg-black text-white`}>
       <MotionCanvas
+        shadows
         gl={{
-          antialias: true,
+          alpha: true,
         }}
       >
-        <LayoutCamera position={[0, 0, 100]} />
-        <motion.ambientLight intensity={4} />
-        <motion.group
-          animate={{
-            rotateY: Math.PI * 2,
-            transition: {
-              duration: 60 * 4,
-              ease: "linear",
-              repeat: Infinity,
-            },
-          }}
+        <LayoutCamera position={[0, 0, 100]} makeDefault />
+        <CameraControls makeDefault maxDistance={100} minDistance={10} />
+        <motion.ambientLight intensity={1} />
+        <motion.pointLight position={[0, 0, 0]} intensity={100} castShadow />
+        <motion.pointLight position={[0, 10, 0]} intensity={10} />
+        <motion.pointLight position={[0, -10, 0]} intensity={10} />
+        <motion.pointLight position={[0, 20, 0]} intensity={10} />
+        <motion.pointLight position={[0, -20, 0]} intensity={10} />
+        <motion.pointLight position={[0, 30, 0]} intensity={10} />
+        <motion.pointLight position={[0, -30, 0]} intensity={10} />
+        <motion.pointLight position={[0, 10, 0]} intensity={10} />
+        <motion.pointLight position={[0, -10, 0]} intensity={10} />
+        <motion.pointLight position={[10, 0, 0]} intensity={10} />
+        <motion.pointLight position={[-10, 0, 0]} intensity={10} />
+        <motion.pointLight position={[0, 0, 10]} intensity={10} />
+        <motion.pointLight position={[0, 0, -10]} intensity={10} />
+        <Select
+          filter={(selected) =>
+            selected.filter((element) => element.userData.dot)
+          }
         >
-          <AnimatePresence>
-            {clicked && (
-              <motion.mesh
-                key={"why?"}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1, transition: { duration: 5 } }}
-                exit={{ scale: 0 }}
-                whileHover={{ scale: 3 }}
-              >
-                <motion.sphereGeometry />
-                <motion.meshStandardMaterial />
-              </motion.mesh>
-            )}
-            {Array.from({ length: 1000 }).map(
-              (_, i) =>
-                clicked && (
-                  <motion.mesh
-                    key={"why me?" + i}
-                    initial={{ scale: 0.1 }}
-                    animate={{
-                      scale: 0.2 + 0.2 * Math.random(),
-                      ...getPoint(),
-                      transition: {
-                        type: "spring",
-                        duration: 10,
-                        scale: {
-                          repeat: Infinity,
-                          repeatType: "reverse",
-                          duration: 0.7 + 0.3 * Math.random(),
-                        },
-                      },
-                    }}
-                    exit={{
-                      scale: 0,
-                      x: 0,
-                      y: 0,
-                      z: 0,
-                      transition: { duration: 0.1 },
-                    }}
-                  >
-                    <motion.sphereGeometry />
-                    <AnimatePresence initial>
-                      {clicked && (
-                        <motion.meshStandardMaterial
-                          key={i + "why me?" + i}
-                          color={"#00aaf0"}
-                          initial={{
-                            opacity: 0.2 + 0.3 * Math.random(),
-                          }}
-                          animate={{
-                            opacity: 1,
-                            transition: {
-                              duration: 0.7 + 0.3 * Math.random(),
-                              repeat: Infinity,
-                              repeatType: "reverse",
-                            },
-                          }}
-                        />
-                      )}
-                    </AnimatePresence>
-                  </motion.mesh>
-                )
-            )}
-          </AnimatePresence>
-        </motion.group>
+          <DotsGroup />
+        </Select>
+        <EffectComposer disableNormalPass>
+          <Bloom mipmapBlur intensity={5} />
+          <DepthOfField target={[0, 0, 10]} bokehScale={1} />
+          <ColorAverage />
+        </EffectComposer>
       </MotionCanvas>
     </main>
   );
-}
-
-const maxDistance = 400;
-
-function getPoint() {
-  var d, x, y, z;
-  do {
-    x = Math.random() * maxDistance - maxDistance / 2;
-    y = Math.random() * maxDistance - maxDistance / 2;
-    z = Math.random() * maxDistance - maxDistance / 2;
-    d = x * x + y * y + z * z;
-  } while (d > maxDistance);
-  return { x, y, z };
 }
