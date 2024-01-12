@@ -40,7 +40,10 @@ export default function Home() {
   return (
     <main
       className={`relative flex min-h-screen flex-col items-center justify-center p-24 overflow-hidden`}
-      onClick={() => setShowWords((showWords) => !showWords)}
+      onClick={() => {
+        setShowWords(false);
+        router.prefetch("/story");
+      }}
     >
       <AnimatePresence>
         {!showWords && (
