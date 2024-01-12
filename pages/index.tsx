@@ -22,20 +22,20 @@ export default function Home() {
     const elem = document.documentElement;
     if (!showWords) {
       elem?.requestFullscreen?.();
-      elem?.webkitRequestFullscreen?.();
-      elem?.webkitRequestFullScreen?.();
-      elem?.mozRequestFullScreen?.();
-      elem?.msRequestFullscreen?.();
+      (elem as any)?.webkitRequestFullscreen?.();
+      (elem as any)?.webkitRequestFullScreen?.();
+      (elem as any)?.mozRequestFullScreen?.();
+      (elem as any)?.msRequestFullscreen?.();
 
       if ("wakeLock" in navigator) {
         lock();
       }
     } else if (document.fullscreenElement) {
       document.exitFullscreen?.();
-      document.webkitExitFullscreen?.();
-      document.webkitExitFullScreen?.();
-      document.mozCancelFullScreen?.();
-      document.msExitFullscreen?.();
+      (document as any).webkitExitFullscreen?.();
+      (document as any).webkitExitFullScreen?.();
+      (document as any).mozCancelFullScreen?.();
+      (document as any).msExitFullscreen?.();
     }
   }, [showWords]);
 

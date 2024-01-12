@@ -9,11 +9,12 @@ import {
 } from "@react-three/postprocessing";
 
 import DotsGroup from "@/components/DotsGroup";
-import { MeshProps } from "@react-three/fiber";
 import { useRef } from "react";
+import { Mesh } from "three";
 
 export default function Dots() {
-  const sunRef = useRef<MeshProps>(null);
+  const sunRef = useRef<Mesh>(null!);
+
   return (
     <main className={`h-screen bg-black text-white`}>
       <MotionCanvas
@@ -46,6 +47,7 @@ export default function Dots() {
           <DotsGroup />
         </Select>
         <motion.mesh
+          //@ts-ignore
           ref={sunRef}
           key={"why?"}
           initial={{ scale: 0 }}
@@ -57,8 +59,10 @@ export default function Dots() {
             roughness={0.8}
             metalness={0.3}
             emissive={"#ffffff"}
+            // @ts-ignore
             initial={{ emissiveIntensity: 0.1 }}
             animate={{
+              // @ts-ignore
               emissiveIntensity: 0.5,
               transition: {
                 repeat: Infinity,
