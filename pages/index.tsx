@@ -14,11 +14,26 @@ export default function Home() {
   const [showWords, setShowWords] = useState(true);
   // enter fullscreen when clicked
   useEffect(() => {
+    async function lock() {
+      navigator.wakeLock.request("screen");
+    }
     const elem = document.documentElement;
     if (!showWords) {
-      elem?.requestFullscreen();
+      elem?.requestFullscreen?.();
+      elem?.webkitRequestFullscreen?.();
+      elem?.webkitRequestFullScreen?.();
+      elem?.mozRequestFullScreen?.();
+      elem?.msRequestFullscreen?.();
+
+      if ("wakeLock" in navigator) {
+        lock();
+      }
     } else if (document.fullscreenElement) {
-      document.exitFullscreen();
+      document.exitFullscreen?.();
+      document.webkitExitFullscreen?.();
+      document.webkitExitFullScreen?.();
+      document.mozCancelFullScreen?.();
+      document.msExitFullscreen?.();
     }
   }, [showWords]);
 
