@@ -56,16 +56,6 @@ export default function DotsGroup() {
   return (
     <motion.group ref={groupRef} castShadow receiveShadow>
       <AnimatePresence>
-        <motion.mesh
-          key={"why?"}
-          initial={{ scale: 0 }}
-          animate={{ scale: 4, transition: { duration: 5 } }}
-          exit={{ scale: 0 }}
-          whileHover={{ scale: 3 }}
-        >
-          <motion.sphereGeometry />
-          <motion.meshStandardMaterial />
-        </motion.mesh>
         {positions.map((position, i) => (
           <motion.mesh
             userData={{ dot: true }}
