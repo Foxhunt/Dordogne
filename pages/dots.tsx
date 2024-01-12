@@ -1,6 +1,5 @@
 import { LayoutCamera, MotionCanvas, motion } from "framer-motion-3d";
 
-import { extend } from "@react-three/fiber";
 import { CameraControls, Select } from "@react-three/drei";
 import {
   EffectComposer,
@@ -8,9 +7,6 @@ import {
   DepthOfField,
   ColorAverage,
 } from "@react-three/postprocessing";
-
-import * as three from "three";
-extend(three);
 
 import DotsGroup from "@/components/DotsGroup";
 

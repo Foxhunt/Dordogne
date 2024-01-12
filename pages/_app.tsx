@@ -5,6 +5,29 @@ import { Roboto } from "next/font/google";
 
 const roboto = Roboto({ weight: ["400"], subsets: ["latin"] });
 
+import { extend } from "@react-three/fiber";
+import {
+  AmbientLight,
+  PointLight,
+  Group,
+  Mesh,
+  SphereGeometry,
+  PlaneGeometry,
+  PositionalAudio,
+  MeshStandardMaterial,
+} from "three";
+
+extend({
+  AmbientLight,
+  PointLight,
+  Group,
+  Mesh,
+  SphereGeometry,
+  PlaneGeometry,
+  PositionalAudio,
+  MeshStandardMaterial,
+});
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
