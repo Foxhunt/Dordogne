@@ -3,6 +3,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
+const timeToStory = 5;
+
 export default function Home() {
   const router = useRouter();
 
@@ -50,7 +52,11 @@ export default function Home() {
           <motion.div
             key="circle"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1, transition: { duration: 10 } }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              transition: { duration: timeToStory },
+            }}
             exit={{ opacity: 0, scale: 0, transition: { duration: 1 } }}
             style={{ height }}
             className={`absolute bg-black rounded-full aspect-square -z-50`}
@@ -76,7 +82,7 @@ export default function Home() {
             <motion.div
               key="fade"
               variants={{
-                exit: { opacity: 0, transition: { duration: 10 } },
+                exit: { opacity: 0, transition: { duration: timeToStory } },
               }}
               onAnimationComplete={(definition) => {
                 if (definition === "exit") {
