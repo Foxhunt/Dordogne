@@ -13,7 +13,7 @@ import {
 import { GroupProps, useFrame, useThree } from "@react-three/fiber";
 import { Vector3, PositionalAudio as PositionalAudioImpl } from "three";
 
-const sounds = [
+export const sounds = [
   "Arthur",
   "Carlo",
   "Chris 2",

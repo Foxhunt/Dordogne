@@ -6,6 +6,8 @@ import { Text } from "@react-three/drei";
 
 import Images from "@/components/images";
 
+import { sounds } from "@/components/DotsGroup";
+
 export default function Story() {
   const router = useRouter();
 
@@ -16,7 +18,12 @@ export default function Story() {
           position={[0, 0, 5]}
           animate={{ x: 0, y: 0, z: -12 }}
           transition={{ duration: 10 }}
-          onAnimationStart={() => router.prefetch("/dots")}
+          onAnimationStart={() => {
+            router.prefetch("/dots");
+            sounds.forEach((filename) => {
+              fetch(`/assets/sound/${filename}.mp3`);
+            });
+          }}
           onAnimationComplete={() => router.push("/dots")}
         />
         <Images />
