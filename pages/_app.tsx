@@ -15,6 +15,7 @@ import {
   PlaneGeometry,
   PositionalAudio,
   MeshStandardMaterial,
+  RingGeometry,
 } from "three";
 
 extend({
@@ -26,6 +27,7 @@ extend({
   PlaneGeometry,
   PositionalAudio,
   MeshStandardMaterial,
+  RingGeometry,
 });
 
 export default function App({ Component, pageProps }: AppProps) {

@@ -1,7 +1,11 @@
 import { Billboard, PositionalAudio, Text, useSelect } from "@react-three/drei";
 import { motion } from "framer-motion-3d";
 import { useEffect, useRef } from "react";
-import { Object3D, PositionalAudio as PositionalAudioImpl } from "three";
+import {
+  DoubleSide,
+  Object3D,
+  PositionalAudio as PositionalAudioImpl,
+} from "three";
 
 type DotProps = {
   filename: string;
@@ -73,6 +77,26 @@ export default function Dot({ filename, position }: DotProps) {
         >
           {filename}
         </Text>
+        <motion.mesh
+          rotation={[(Math.PI / 2) * 0.1, 0, 0]}
+          initial={{ scale: 2 }}
+          animate={{
+            scale: 1,
+            transition: {
+              duration: 2,
+              repeat: Infinity,
+              repeatType: "loop",
+            },
+          }}
+        >
+          <ringGeometry args={[2, 2.1]} />
+          <meshStandardMaterial
+            color={"#fff"}
+            roughness={0.2}
+            metalness={0.1}
+            side={DoubleSide}
+          />
+        </motion.mesh>
       </Billboard>
     </motion.mesh>
   );
