@@ -41,7 +41,7 @@ export const sounds = [
 
 export default function DotsGroup() {
   const controls = useThree(
-    (state) => state.controls as unknown as CameraControls
+    (state) => state.controls as unknown as CameraControls,
   );
 
   const [rotate, setRotate] = useState(true);
@@ -56,7 +56,7 @@ export default function DotsGroup() {
 
   const positions = useMemo(
     () => sounds.map((filename) => ({ filename, ...getPoint() })),
-    []
+    [],
   );
 
   const selected = useSelect();
@@ -76,7 +76,7 @@ export default function DotsGroup() {
         position.x,
         position.y,
         position.z,
-        true
+        true,
       );
 
       setRotate(false);

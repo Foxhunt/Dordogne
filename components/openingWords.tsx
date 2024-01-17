@@ -75,7 +75,7 @@ export default function OpeningWords() {
   useEffect(() => {
     const interval = setInterval(
       () => setIndex(Math.floor(Math.random() * images.length)),
-      isPresent ? 1000 : 2000
+      isPresent ? 1000 : 2000,
     );
     return () => clearInterval(interval);
   }, [isPresent]);
