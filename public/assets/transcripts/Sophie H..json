@@ -1,0 +1,196 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Bitte, also, ich denke, dass ich Menschen Bilder machen vor allem in der heutigen Zeit zur Selbstdarstellung.",
+          "confidence": 0.9141082,
+          "words": [
+            {
+              "startOffset": "1.300s",
+              "endOffset": "1.700s",
+              "word": "Bitte,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "1.700s",
+              "endOffset": "2.700s",
+              "word": "also,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.700s",
+              "endOffset": "3.100s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.100s",
+              "endOffset": "3.400s",
+              "word": "denke,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.400s",
+              "endOffset": "3.700s",
+              "word": "dass",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.700s",
+              "endOffset": "3.900s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.900s",
+              "endOffset": "4.300s",
+              "word": "Menschen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.300s",
+              "endOffset": "4.800s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.800s",
+              "endOffset": "5s",
+              "word": "machen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5s",
+              "endOffset": "5.500s",
+              "word": "vor",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.500s",
+              "endOffset": "5.700s",
+              "word": "allem",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.700s",
+              "endOffset": "5.800s",
+              "word": "in",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.800s",
+              "endOffset": "5.900s",
+              "word": "der",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.900s",
+              "endOffset": "6.200s",
+              "word": "heutigen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.200s",
+              "endOffset": "6.400s",
+              "word": "Zeit",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.400s",
+              "endOffset": "6.800s",
+              "word": "zur",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.800s",
+              "endOffset": "7.400s",
+              "word": "Selbstdarstellung.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "8.030s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Kann man Höhlenmalerei vergleichen mit der Selbstdarstellung heutzutage auf Social Media?",
+          "confidence": 0.9141082,
+          "words": [
+            {
+              "startOffset": "13.700s",
+              "endOffset": "14.100s",
+              "word": "Kann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.100s",
+              "endOffset": "14.200s",
+              "word": "man",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.200s",
+              "endOffset": "15.200s",
+              "word": "Höhlenmalerei",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "15.200s",
+              "endOffset": "15.800s",
+              "word": "vergleichen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "15.800s",
+              "endOffset": "16.400s",
+              "word": "mit",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.400s",
+              "endOffset": "16.800s",
+              "word": "der",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.800s",
+              "endOffset": "17.300s",
+              "word": "Selbstdarstellung",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.300s",
+              "endOffset": "17.900s",
+              "word": "heutzutage",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.900s",
+              "endOffset": "18.300s",
+              "word": "auf",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.300s",
+              "endOffset": "18.700s",
+              "word": "Social",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.700s",
+              "endOffset": "18.800s",
+              "word": "Media?",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "19.480s",
+      "languageCode": "de-de"
+    }
+  ]
+}

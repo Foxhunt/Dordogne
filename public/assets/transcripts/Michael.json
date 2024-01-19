@@ -1,0 +1,538 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "bitte",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "1.100s",
+              "endOffset": "1.500s",
+              "word": "bitte",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "2.260s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " am Ende der Höhle ist ein Mischwesen dargestellt, welches halb Mensch halb Vogel darstellt und den Tod symbolisieren soll oder vielleicht den Übergang darstellt vom Diesseits ins Jenseits.",
+          "confidence": 0.9135923,
+          "words": [
+            {
+              "startOffset": "3.200s",
+              "endOffset": "3.600s",
+              "word": "am",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.600s",
+              "endOffset": "3.800s",
+              "word": "Ende",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.800s",
+              "endOffset": "4s",
+              "word": "der",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4s",
+              "endOffset": "4.300s",
+              "word": "Höhle",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.300s",
+              "endOffset": "5s",
+              "word": "ist",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5s",
+              "endOffset": "5.500s",
+              "word": "ein",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.500s",
+              "endOffset": "6.500s",
+              "word": "Mischwesen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.500s",
+              "endOffset": "7.700s",
+              "word": "dargestellt,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.700s",
+              "endOffset": "8.700s",
+              "word": "welches",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.700s",
+              "endOffset": "10.100s",
+              "word": "halb",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.100s",
+              "endOffset": "10.100s",
+              "word": "Mensch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.100s",
+              "endOffset": "10.500s",
+              "word": "halb",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.500s",
+              "endOffset": "11s",
+              "word": "Vogel",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11s",
+              "endOffset": "12s",
+              "word": "darstellt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12s",
+              "endOffset": "13.300s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "13.300s",
+              "endOffset": "14.600s",
+              "word": "den",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.600s",
+              "endOffset": "15.200s",
+              "word": "Tod",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "15.200s",
+              "endOffset": "16.300s",
+              "word": "symbolisieren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.300s",
+              "endOffset": "16.700s",
+              "word": "soll",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.700s",
+              "endOffset": "17s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17s",
+              "endOffset": "17.300s",
+              "word": "vielleicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.300s",
+              "endOffset": "17.700s",
+              "word": "den",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.700s",
+              "endOffset": "18.300s",
+              "word": "Übergang",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.300s",
+              "endOffset": "19s",
+              "word": "darstellt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19s",
+              "endOffset": "19.800s",
+              "word": "vom",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.800s",
+              "endOffset": "20.900s",
+              "word": "Diesseits",
+              "confidence": 0.89966226
+            },
+            {
+              "startOffset": "20.900s",
+              "endOffset": "21.300s",
+              "word": "ins",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.300s",
+              "endOffset": "22s",
+              "word": "Jenseits.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "22.600s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Und am Anfang der Höhle ist auch eben ein Mischwesen Einhorn betitelt dargestellt, was eben nicht so ganz klar als Tier dargestellt wurde aber eben auch menschliche Züge hat und das könnte natürlich auch symbolisieren den Anfang des Lebens, also den Übergang vom Tier oder von einem anderen Wesen in eben die menschliche Gestaltung.",
+          "confidence": 0.91240305,
+          "words": [
+            {
+              "startOffset": "23.100s",
+              "endOffset": "23.300s",
+              "word": "Und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.300s",
+              "endOffset": "23.800s",
+              "word": "am",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.800s",
+              "endOffset": "25s",
+              "word": "Anfang",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25s",
+              "endOffset": "25.200s",
+              "word": "der",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.200s",
+              "endOffset": "25.500s",
+              "word": "Höhle",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.500s",
+              "endOffset": "26.500s",
+              "word": "ist",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "26.500s",
+              "endOffset": "27.100s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "27.100s",
+              "endOffset": "27.700s",
+              "word": "eben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "27.700s",
+              "endOffset": "27.900s",
+              "word": "ein",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "27.900s",
+              "endOffset": "28.800s",
+              "word": "Mischwesen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "28.800s",
+              "endOffset": "29.700s",
+              "word": "Einhorn",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.700s",
+              "endOffset": "30.800s",
+              "word": "betitelt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.800s",
+              "endOffset": "32.100s",
+              "word": "dargestellt,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "32.100s",
+              "endOffset": "33s",
+              "word": "was",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33s",
+              "endOffset": "33.400s",
+              "word": "eben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.400s",
+              "endOffset": "33.600s",
+              "word": "nicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.600s",
+              "endOffset": "34s",
+              "word": "so",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "34s",
+              "endOffset": "34.300s",
+              "word": "ganz",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "34.300s",
+              "endOffset": "34.800s",
+              "word": "klar",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "34.800s",
+              "endOffset": "35.700s",
+              "word": "als",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.700s",
+              "endOffset": "36.300s",
+              "word": "Tier",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "36.300s",
+              "endOffset": "37.300s",
+              "word": "dargestellt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.300s",
+              "endOffset": "37.700s",
+              "word": "wurde",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.700s",
+              "endOffset": "38.700s",
+              "word": "aber",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "38.700s",
+              "endOffset": "39.100s",
+              "word": "eben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "39.100s",
+              "endOffset": "39.300s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "39.300s",
+              "endOffset": "40s",
+              "word": "menschliche",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "40s",
+              "endOffset": "40.700s",
+              "word": "Züge",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "40.700s",
+              "endOffset": "41.100s",
+              "word": "hat",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "41.100s",
+              "endOffset": "42.300s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.300s",
+              "endOffset": "42.700s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.700s",
+              "endOffset": "43.200s",
+              "word": "könnte",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.200s",
+              "endOffset": "43.500s",
+              "word": "natürlich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.500s",
+              "endOffset": "43.900s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.900s",
+              "endOffset": "45.500s",
+              "word": "symbolisieren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "45.500s",
+              "endOffset": "46s",
+              "word": "den",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "46s",
+              "endOffset": "46.500s",
+              "word": "Anfang",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "46.500s",
+              "endOffset": "46.800s",
+              "word": "des",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "46.800s",
+              "endOffset": "47.100s",
+              "word": "Lebens,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "47.100s",
+              "endOffset": "47.900s",
+              "word": "also",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "47.900s",
+              "endOffset": "48.300s",
+              "word": "den",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "48.300s",
+              "endOffset": "48.900s",
+              "word": "Übergang",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "48.900s",
+              "endOffset": "50.200s",
+              "word": "vom",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "50.200s",
+              "endOffset": "51.400s",
+              "word": "Tier",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51.400s",
+              "endOffset": "51.700s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51.700s",
+              "endOffset": "51.900s",
+              "word": "von",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51.900s",
+              "endOffset": "52.100s",
+              "word": "einem",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "52.100s",
+              "endOffset": "52.600s",
+              "word": "anderen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "52.600s",
+              "endOffset": "53s",
+              "word": "Wesen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "53s",
+              "endOffset": "53.800s",
+              "word": "in",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "53.800s",
+              "endOffset": "54.400s",
+              "word": "eben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.400s",
+              "endOffset": "54.600s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.600s",
+              "endOffset": "54.900s",
+              "word": "menschliche",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.900s",
+              "endOffset": "55.600s",
+              "word": "Gestaltung.",
+              "confidence": 0.82202816
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "56.290s",
+      "languageCode": "de-de"
+    }
+  ]
+}

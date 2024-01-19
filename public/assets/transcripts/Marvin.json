@@ -1,0 +1,772 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Bitte warum sich Menschen Bilder machen, es ist meine Meinung nach um sich zu erinnern um.",
+          "confidence": 0.8970481,
+          "words": [
+            {
+              "startOffset": "1.700s",
+              "endOffset": "2.100s",
+              "word": "Bitte",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.100s",
+              "endOffset": "3.300s",
+              "word": "warum",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.300s",
+              "endOffset": "3.600s",
+              "word": "sich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.600s",
+              "endOffset": "3.800s",
+              "word": "Menschen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.800s",
+              "endOffset": "4.200s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.200s",
+              "endOffset": "4.400s",
+              "word": "machen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.400s",
+              "endOffset": "5.200s",
+              "word": "es",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.200s",
+              "endOffset": "5.400s",
+              "word": "ist",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.400s",
+              "endOffset": "5.500s",
+              "word": "meine",
+              "confidence": 0.74101233
+            },
+            {
+              "startOffset": "5.500s",
+              "endOffset": "5.800s",
+              "word": "Meinung",
+              "confidence": 0.8142428
+            },
+            {
+              "startOffset": "5.800s",
+              "endOffset": "6s",
+              "word": "nach",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6s",
+              "endOffset": "6.300s",
+              "word": "um",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.300s",
+              "endOffset": "7.900s",
+              "word": "sich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.900s",
+              "endOffset": "8.100s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.100s",
+              "endOffset": "8.300s",
+              "word": "erinnern",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.300s",
+              "endOffset": "9.600s",
+              "word": "um.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "10.380s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Sachen darzustellen Sachen aufzudecken",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "10.800s",
+              "endOffset": "11.300s",
+              "word": "Sachen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.300s",
+              "endOffset": "12.100s",
+              "word": "darzustellen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.100s",
+              "endOffset": "12.700s",
+              "word": "Sachen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.700s",
+              "endOffset": "13.600s",
+              "word": "aufzudecken",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "14.380s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Sachen sichtbar zu machen, das würde ich so sagen.",
+          "confidence": 0.91310436,
+          "words": [
+            {
+              "startOffset": "14.900s",
+              "endOffset": "15.400s",
+              "word": "Sachen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "15.400s",
+              "endOffset": "16s",
+              "word": "sichtbar",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16s",
+              "endOffset": "16.100s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.100s",
+              "endOffset": "16.300s",
+              "word": "machen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.300s",
+              "endOffset": "18.800s",
+              "word": "das",
+              "confidence": 0.9050738
+            },
+            {
+              "startOffset": "18.800s",
+              "endOffset": "19.100s",
+              "word": "würde",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.100s",
+              "endOffset": "19.200s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.200s",
+              "endOffset": "19.300s",
+              "word": "so",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.300s",
+              "endOffset": "19.400s",
+              "word": "sagen.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "20.210s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Warum ich mir Bilder mache?",
+          "confidence": 0.8883034,
+          "words": [
+            {
+              "startOffset": "23.200s",
+              "endOffset": "23.400s",
+              "word": "Warum",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.400s",
+              "endOffset": "23.600s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.600s",
+              "endOffset": "23.900s",
+              "word": "mir",
+              "confidence": 0.7850846
+            },
+            {
+              "startOffset": "23.900s",
+              "endOffset": "24.100s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "24.100s",
+              "endOffset": "24.400s",
+              "word": "mache?",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "26.290s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " aus kreative Lust aus Spaß und",
+          "confidence": 0.88304925,
+          "words": [
+            {
+              "startOffset": "27.200s",
+              "endOffset": "27.700s",
+              "word": "aus",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "27.700s",
+              "endOffset": "29.400s",
+              "word": "kreative",
+              "confidence": 0.8625653
+            },
+            {
+              "startOffset": "29.400s",
+              "endOffset": "29.600s",
+              "word": "Lust",
+              "confidence": 0.8106388
+            },
+            {
+              "startOffset": "29.600s",
+              "endOffset": "30.100s",
+              "word": "aus",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.100s",
+              "endOffset": "30.400s",
+              "word": "Spaß",
+              "confidence": 0.8827669
+            },
+            {
+              "startOffset": "30.400s",
+              "endOffset": "31.100s",
+              "word": "und",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "32.200s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " aus diesem Bildern dann ein Bezug zur Gesellschaft und",
+          "confidence": 0.90380466,
+          "words": [
+            {
+              "startOffset": "33.700s",
+              "endOffset": "35.500s",
+              "word": "aus",
+              "confidence": 0.9073301
+            },
+            {
+              "startOffset": "35.500s",
+              "endOffset": "35.600s",
+              "word": "diesem",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.600s",
+              "endOffset": "36s",
+              "word": "Bildern",
+              "confidence": 0.9089337
+            },
+            {
+              "startOffset": "36s",
+              "endOffset": "36.100s",
+              "word": "dann",
+              "confidence": 0.8338867
+            },
+            {
+              "startOffset": "36.100s",
+              "endOffset": "36.600s",
+              "word": "ein",
+              "confidence": 0.91355085
+            },
+            {
+              "startOffset": "36.600s",
+              "endOffset": "36.800s",
+              "word": "Bezug",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "36.800s",
+              "endOffset": "37.800s",
+              "word": "zur",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.800s",
+              "endOffset": "38.100s",
+              "word": "Gesellschaft",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "38.100s",
+              "endOffset": "38.600s",
+              "word": "und",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "39.300s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Ach, wüsste ich jetzt gar nicht. So kann ich das gar nicht so genau sagen gerade aus dem Ärmel.",
+          "confidence": 0.89593315,
+          "words": [
+            {
+              "startOffset": "40.900s",
+              "endOffset": "41.300s",
+              "word": "Ach,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "41.300s",
+              "endOffset": "41.800s",
+              "word": "wüsste",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "41.800s",
+              "endOffset": "41.900s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "41.900s",
+              "endOffset": "42s",
+              "word": "jetzt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42s",
+              "endOffset": "42.100s",
+              "word": "gar",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.100s",
+              "endOffset": "42.100s",
+              "word": "nicht.",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.100s",
+              "endOffset": "42.800s",
+              "word": "So",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.800s",
+              "endOffset": "43.100s",
+              "word": "kann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.100s",
+              "endOffset": "43.200s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.200s",
+              "endOffset": "43.400s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.400s",
+              "endOffset": "43.600s",
+              "word": "gar",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.600s",
+              "endOffset": "43.600s",
+              "word": "nicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.600s",
+              "endOffset": "43.800s",
+              "word": "so",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.800s",
+              "endOffset": "43.900s",
+              "word": "genau",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.900s",
+              "endOffset": "44.100s",
+              "word": "sagen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "44.100s",
+              "endOffset": "44.300s",
+              "word": "gerade",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "44.300s",
+              "endOffset": "44.800s",
+              "word": "aus",
+              "confidence": 0.8179936
+            },
+            {
+              "startOffset": "44.800s",
+              "endOffset": "45s",
+              "word": "dem",
+              "confidence": 0.8179936
+            },
+            {
+              "startOffset": "45.500s",
+              "endOffset": "45.600s",
+              "word": "Ärmel.",
+              "confidence": 0.76101077
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "46.090s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Auf die Frage, warum mache ich Bilder würde ich antworten als mir Spaß macht.",
+          "confidence": 0.9141082,
+          "words": [
+            {
+              "startOffset": "48.200s",
+              "endOffset": "48.500s",
+              "word": "Auf",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "48.500s",
+              "endOffset": "48.500s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "48.500s",
+              "endOffset": "48.900s",
+              "word": "Frage,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "48.900s",
+              "endOffset": "49.400s",
+              "word": "warum",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "49.400s",
+              "endOffset": "49.700s",
+              "word": "mache",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "49.700s",
+              "endOffset": "49.900s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "49.900s",
+              "endOffset": "50.400s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "50.400s",
+              "endOffset": "51s",
+              "word": "würde",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51s",
+              "endOffset": "51.200s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51.200s",
+              "endOffset": "51.500s",
+              "word": "antworten",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51.500s",
+              "endOffset": "53.800s",
+              "word": "als",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "53.800s",
+              "endOffset": "54.100s",
+              "word": "mir",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.100s",
+              "endOffset": "54.700s",
+              "word": "Spaß",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.700s",
+              "endOffset": "54.900s",
+              "word": "macht.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "55.760s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " in jeglicher Form",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "56.800s",
+              "endOffset": "57.100s",
+              "word": "in",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "57.100s",
+              "endOffset": "57.800s",
+              "word": "jeglicher",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "57.800s",
+              "endOffset": "58s",
+              "word": "Form",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "59.700s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " und",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "60.900s",
+              "endOffset": "61.200s",
+              "word": "und",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "62.010s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " eventuell damit noch was zu erzielen, was genau weiß ich nicht, aber",
+          "confidence": 0.91180253,
+          "words": [
+            {
+              "startOffset": "62.700s",
+              "endOffset": "63.300s",
+              "word": "eventuell",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "63.300s",
+              "endOffset": "64s",
+              "word": "damit",
+              "confidence": 0.8948134
+            },
+            {
+              "startOffset": "64s",
+              "endOffset": "65.100s",
+              "word": "noch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "65.100s",
+              "endOffset": "65.300s",
+              "word": "was",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "65.300s",
+              "endOffset": "65.600s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "65.600s",
+              "endOffset": "66.100s",
+              "word": "erzielen,",
+              "confidence": 0.90573496
+            },
+            {
+              "startOffset": "66.100s",
+              "endOffset": "66.300s",
+              "word": "was",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "66.300s",
+              "endOffset": "66.600s",
+              "word": "genau",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "66.600s",
+              "endOffset": "66.900s",
+              "word": "weiß",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "66.900s",
+              "endOffset": "67s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "67s",
+              "endOffset": "67.100s",
+              "word": "nicht,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "67.100s",
+              "endOffset": "67.300s",
+              "word": "aber",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "68.040s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " das kann",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "68.700s",
+              "endOffset": "68.900s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "68.900s",
+              "endOffset": "69.200s",
+              "word": "kann",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "69.910s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " dann passieren",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "70.800s",
+              "endOffset": "71s",
+              "word": "dann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "71s",
+              "endOffset": "71.400s",
+              "word": "passieren",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "72.190s",
+      "languageCode": "de-de"
+    }
+  ]
+}

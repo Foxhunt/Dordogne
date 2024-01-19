@@ -1,0 +1,448 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Bitte ich mache Bilder, weil ich bestimmte Gefühle oder Botschaften einfangen möchte, die ich dann anderen Menschen mitteilen möchte, vielleicht um Gefühle oder Botschaften spürbar zu machen, das heißt dann ja, es kann eine Stimmung sein, wie im Sonnenuntergang oder eine gewisse Erfahrung, die ich im Leben gemacht habe und die ich denke, die es wert ist total damit andere vielleicht auch eine Antwort auf Fragen bekommen, die sich selbst stellen, ja.",
+          "confidence": 0.91267407,
+          "words": [
+            {
+              "startOffset": "1.500s",
+              "endOffset": "2.100s",
+              "word": "Bitte",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.100s",
+              "endOffset": "4.500s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.500s",
+              "endOffset": "4.800s",
+              "word": "mache",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.800s",
+              "endOffset": "5.200s",
+              "word": "Bilder,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.200s",
+              "endOffset": "6.600s",
+              "word": "weil",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.600s",
+              "endOffset": "6.900s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.900s",
+              "endOffset": "8.300s",
+              "word": "bestimmte",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.300s",
+              "endOffset": "9.900s",
+              "word": "Gefühle",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.900s",
+              "endOffset": "10.200s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.200s",
+              "endOffset": "11.600s",
+              "word": "Botschaften",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.600s",
+              "endOffset": "12.400s",
+              "word": "einfangen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.400s",
+              "endOffset": "12.600s",
+              "word": "möchte,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.600s",
+              "endOffset": "13.600s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "13.600s",
+              "endOffset": "14s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14s",
+              "endOffset": "14.100s",
+              "word": "dann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.100s",
+              "endOffset": "14.300s",
+              "word": "anderen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.300s",
+              "endOffset": "15.500s",
+              "word": "Menschen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "15.500s",
+              "endOffset": "16.700s",
+              "word": "mitteilen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.700s",
+              "endOffset": "16.900s",
+              "word": "möchte,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.900s",
+              "endOffset": "17.400s",
+              "word": "vielleicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.400s",
+              "endOffset": "17.800s",
+              "word": "um",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.800s",
+              "endOffset": "18.600s",
+              "word": "Gefühle",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.600s",
+              "endOffset": "18.700s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.700s",
+              "endOffset": "19.200s",
+              "word": "Botschaften",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.200s",
+              "endOffset": "19.800s",
+              "word": "spürbar",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.800s",
+              "endOffset": "20s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "20s",
+              "endOffset": "20.100s",
+              "word": "machen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "20.100s",
+              "endOffset": "21s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21s",
+              "endOffset": "21.100s",
+              "word": "heißt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.100s",
+              "endOffset": "21.300s",
+              "word": "dann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.300s",
+              "endOffset": "22.400s",
+              "word": "ja,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "22.400s",
+              "endOffset": "23s",
+              "word": "es",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23s",
+              "endOffset": "23.200s",
+              "word": "kann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.200s",
+              "endOffset": "23.400s",
+              "word": "eine",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.400s",
+              "endOffset": "23.600s",
+              "word": "Stimmung",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.600s",
+              "endOffset": "23.700s",
+              "word": "sein,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.700s",
+              "endOffset": "24.100s",
+              "word": "wie",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "24.100s",
+              "endOffset": "24.400s",
+              "word": "im",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "24.400s",
+              "endOffset": "24.900s",
+              "word": "Sonnenuntergang",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "24.900s",
+              "endOffset": "25.400s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.400s",
+              "endOffset": "28.400s",
+              "word": "eine",
+              "confidence": 0.88460547
+            },
+            {
+              "startOffset": "28.400s",
+              "endOffset": "28.600s",
+              "word": "gewisse",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "28.600s",
+              "endOffset": "28.900s",
+              "word": "Erfahrung,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "28.900s",
+              "endOffset": "29.200s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.200s",
+              "endOffset": "29.400s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.400s",
+              "endOffset": "29.400s",
+              "word": "im",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.400s",
+              "endOffset": "29.500s",
+              "word": "Leben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.500s",
+              "endOffset": "29.700s",
+              "word": "gemacht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.700s",
+              "endOffset": "29.900s",
+              "word": "habe",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.900s",
+              "endOffset": "30.400s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.400s",
+              "endOffset": "30.600s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.600s",
+              "endOffset": "30.900s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.900s",
+              "endOffset": "31s",
+              "word": "denke,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "31s",
+              "endOffset": "31.300s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "31.300s",
+              "endOffset": "32s",
+              "word": "es",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "32s",
+              "endOffset": "32.200s",
+              "word": "wert",
+              "confidence": 0.8993567
+            },
+            {
+              "startOffset": "32.200s",
+              "endOffset": "32.400s",
+              "word": "ist",
+              "confidence": 0.8846054
+            },
+            {
+              "startOffset": "32.400s",
+              "endOffset": "32.500s",
+              "word": "total",
+              "confidence": 0.8846054
+            },
+            {
+              "startOffset": "32.500s",
+              "endOffset": "33s",
+              "word": "damit",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33s",
+              "endOffset": "33.300s",
+              "word": "andere",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.300s",
+              "endOffset": "34.300s",
+              "word": "vielleicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "34.300s",
+              "endOffset": "34.800s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "34.800s",
+              "endOffset": "35s",
+              "word": "eine",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35s",
+              "endOffset": "35.300s",
+              "word": "Antwort",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.300s",
+              "endOffset": "35.500s",
+              "word": "auf",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.500s",
+              "endOffset": "35.900s",
+              "word": "Fragen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.900s",
+              "endOffset": "36.400s",
+              "word": "bekommen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "36.400s",
+              "endOffset": "36.900s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "36.900s",
+              "endOffset": "37.200s",
+              "word": "sich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.200s",
+              "endOffset": "37.300s",
+              "word": "selbst",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.300s",
+              "endOffset": "37.600s",
+              "word": "stellen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.600s",
+              "endOffset": "38.400s",
+              "word": "ja.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "39.080s",
+      "languageCode": "de-de"
+    }
+  ]
+}

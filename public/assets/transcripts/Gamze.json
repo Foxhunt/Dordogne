@@ -1,0 +1,460 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Warum sich Menschen Bilder malen, ich glaube, dass Menschen sich Bilder malen um sich selbst die Gedanken Emotionen und respektiven auszudrücken, sowie in der Kunst und zu kommunizieren und gewisse Botschaften zu übermitteln, außerdem denke ich das Bilder auch einen großen Teil, ob es jetzt Fotografien oder handgemalte Bilder sind einfach damit die eigene Gesellschaft gewisse Traditionen Erinnerungen und Gedanken festhalten kann und für die weiteren Nachwelt auch als eine Art Geschenk hinterlassen kann.",
+          "confidence": 0.91295755,
+          "words": [
+            {
+              "startOffset": "0.700s",
+              "endOffset": "1.300s",
+              "word": "Warum",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "1.300s",
+              "endOffset": "2.500s",
+              "word": "sich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.500s",
+              "endOffset": "2.800s",
+              "word": "Menschen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.800s",
+              "endOffset": "3.200s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.200s",
+              "endOffset": "3.800s",
+              "word": "malen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.800s",
+              "endOffset": "3.900s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.900s",
+              "endOffset": "4.100s",
+              "word": "glaube,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.100s",
+              "endOffset": "4.500s",
+              "word": "dass",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.500s",
+              "endOffset": "4.600s",
+              "word": "Menschen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.600s",
+              "endOffset": "4.900s",
+              "word": "sich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.900s",
+              "endOffset": "5.700s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.700s",
+              "endOffset": "6.200s",
+              "word": "malen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.200s",
+              "endOffset": "6.400s",
+              "word": "um",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.400s",
+              "endOffset": "6.500s",
+              "word": "sich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.500s",
+              "endOffset": "6.700s",
+              "word": "selbst",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.700s",
+              "endOffset": "7s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7s",
+              "endOffset": "7.300s",
+              "word": "Gedanken",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.300s",
+              "endOffset": "8s",
+              "word": "Emotionen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8s",
+              "endOffset": "8.200s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.200s",
+              "endOffset": "8.900s",
+              "word": "respektiven",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.900s",
+              "endOffset": "9.400s",
+              "word": "auszudrücken,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.400s",
+              "endOffset": "10.400s",
+              "word": "sowie",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.400s",
+              "endOffset": "10.500s",
+              "word": "in",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.500s",
+              "endOffset": "10.600s",
+              "word": "der",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.600s",
+              "endOffset": "10.700s",
+              "word": "Kunst",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.700s",
+              "endOffset": "11.200s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.200s",
+              "endOffset": "11.600s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.600s",
+              "endOffset": "12.200s",
+              "word": "kommunizieren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.200s",
+              "endOffset": "12.800s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.800s",
+              "endOffset": "13.700s",
+              "word": "gewisse",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "13.700s",
+              "endOffset": "14.200s",
+              "word": "Botschaften",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.200s",
+              "endOffset": "14.600s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.600s",
+              "endOffset": "14.900s",
+              "word": "übermitteln,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.900s",
+              "endOffset": "16.700s",
+              "word": "außerdem",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16.700s",
+              "endOffset": "17.100s",
+              "word": "denke",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.100s",
+              "endOffset": "17.200s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.200s",
+              "endOffset": "17.300s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.300s",
+              "endOffset": "17.700s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.700s",
+              "endOffset": "18.100s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.100s",
+              "endOffset": "18.700s",
+              "word": "einen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.700s",
+              "endOffset": "18.800s",
+              "word": "großen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.800s",
+              "endOffset": "19s",
+              "word": "Teil,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19s",
+              "endOffset": "19.400s",
+              "word": "ob",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.400s",
+              "endOffset": "19.500s",
+              "word": "es",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.500s",
+              "endOffset": "19.700s",
+              "word": "jetzt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.700s",
+              "endOffset": "20.400s",
+              "word": "Fotografien",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "20.400s",
+              "endOffset": "20.600s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "20.600s",
+              "endOffset": "21.600s",
+              "word": "handgemalte",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.600s",
+              "endOffset": "21.900s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.900s",
+              "endOffset": "22.100s",
+              "word": "sind",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "22.100s",
+              "endOffset": "22.900s",
+              "word": "einfach",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "22.900s",
+              "endOffset": "23.800s",
+              "word": "damit",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.800s",
+              "endOffset": "24.500s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "24.500s",
+              "endOffset": "25.200s",
+              "word": "eigene",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.200s",
+              "endOffset": "25.500s",
+              "word": "Gesellschaft",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.500s",
+              "endOffset": "26.300s",
+              "word": "gewisse",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "26.300s",
+              "endOffset": "26.900s",
+              "word": "Traditionen",
+              "confidence": 0.8766986
+            },
+            {
+              "startOffset": "26.900s",
+              "endOffset": "27.600s",
+              "word": "Erinnerungen",
+              "confidence": 0.866372
+            },
+            {
+              "startOffset": "27.600s",
+              "endOffset": "27.700s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "27.700s",
+              "endOffset": "29.300s",
+              "word": "Gedanken",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.300s",
+              "endOffset": "30.100s",
+              "word": "festhalten",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.100s",
+              "endOffset": "30.400s",
+              "word": "kann",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.400s",
+              "endOffset": "30.700s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "30.700s",
+              "endOffset": "31s",
+              "word": "für",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "31s",
+              "endOffset": "31.200s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "31.200s",
+              "endOffset": "32s",
+              "word": "weiteren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "32s",
+              "endOffset": "32.500s",
+              "word": "Nachwelt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "32.500s",
+              "endOffset": "33.100s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.100s",
+              "endOffset": "33.400s",
+              "word": "als",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.400s",
+              "endOffset": "33.700s",
+              "word": "eine",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.700s",
+              "endOffset": "33.900s",
+              "word": "Art",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "33.900s",
+              "endOffset": "34.700s",
+              "word": "Geschenk",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "34.700s",
+              "endOffset": "35.600s",
+              "word": "hinterlassen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.600s",
+              "endOffset": "35.800s",
+              "word": "kann.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "36.460s",
+      "languageCode": "de-de"
+    }
+  ]
+}

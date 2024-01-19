@@ -1,0 +1,130 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Bitte ich mache Bilder um Ruhe zu finden und von der aller Welt auszufrieden genau wie die Höller Menschen.",
+          "confidence": 0.90691215,
+          "words": [
+            {
+              "startOffset": "1.700s",
+              "endOffset": "2.200s",
+              "word": "Bitte",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.200s",
+              "endOffset": "3.100s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.100s",
+              "endOffset": "3.300s",
+              "word": "mache",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.300s",
+              "endOffset": "3.800s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3.800s",
+              "endOffset": "4.600s",
+              "word": "um",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.600s",
+              "endOffset": "5s",
+              "word": "Ruhe",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5s",
+              "endOffset": "5.200s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.200s",
+              "endOffset": "5.400s",
+              "word": "finden",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.400s",
+              "endOffset": "5.700s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "5.700s",
+              "endOffset": "6.400s",
+              "word": "von",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.400s",
+              "endOffset": "7s",
+              "word": "der",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7s",
+              "endOffset": "7.200s",
+              "word": "aller",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.200s",
+              "endOffset": "7.400s",
+              "word": "Welt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.400s",
+              "endOffset": "8.200s",
+              "word": "auszufrieden",
+              "confidence": 0.9050957
+            },
+            {
+              "startOffset": "8.200s",
+              "endOffset": "8.700s",
+              "word": "genau",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.700s",
+              "endOffset": "8.900s",
+              "word": "wie",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.900s",
+              "endOffset": "9.200s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.200s",
+              "endOffset": "9.600s",
+              "word": "Höller",
+              "confidence": 0.78639597
+            },
+            {
+              "startOffset": "9.600s",
+              "endOffset": "9.700s",
+              "word": "Menschen.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "10.460s",
+      "languageCode": "de-de"
+    }
+  ]
+}

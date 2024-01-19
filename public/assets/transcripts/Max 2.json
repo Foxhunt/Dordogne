@@ -1,0 +1,766 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Okay, warum Menschen Bilder machen oder ich mir Bilder mache?",
+          "confidence": 0.90566266,
+          "words": [
+            {
+              "startOffset": "1.100s",
+              "endOffset": "1.300s",
+              "word": "Okay,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "1.300s",
+              "endOffset": "2.100s",
+              "word": "warum",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.100s",
+              "endOffset": "2.600s",
+              "word": "Menschen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "2.600s",
+              "endOffset": "2.900s",
+              "word": "Bilder",
+              "confidence": 0.84319234
+            },
+            {
+              "startOffset": "2.900s",
+              "endOffset": "3s",
+              "word": "machen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "3s",
+              "endOffset": "4.100s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.100s",
+              "endOffset": "4.300s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.300s",
+              "endOffset": "4.500s",
+              "word": "mir",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.500s",
+              "endOffset": "4.600s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "4.600s",
+              "endOffset": "4.800s",
+              "word": "mache?",
+              "confidence": 0.9005692
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "5.540s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Ich glaube, ein wichtiger Aspekt, wenn es darum geht Bilder zu machen ist die Konservierung von Wissen und eigene Erfahrungen für Menschen, die nicht dabei waren oder die später Leben und ich sehe es auch sehr wichtigen Aspekt Medien zu wählen, die das Wissen konservieren können und nicht zu schnell.",
+          "confidence": 0.9114364,
+          "words": [
+            {
+              "startOffset": "6.300s",
+              "endOffset": "6.400s",
+              "word": "Ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.400s",
+              "endOffset": "6.600s",
+              "word": "glaube,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "6.600s",
+              "endOffset": "7.500s",
+              "word": "ein",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.500s",
+              "endOffset": "7.800s",
+              "word": "wichtiger",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "7.800s",
+              "endOffset": "8s",
+              "word": "Aspekt,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8s",
+              "endOffset": "8.800s",
+              "word": "wenn",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "8.800s",
+              "endOffset": "9s",
+              "word": "es",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9s",
+              "endOffset": "9.200s",
+              "word": "darum",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.200s",
+              "endOffset": "9.400s",
+              "word": "geht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.400s",
+              "endOffset": "9.500s",
+              "word": "Bilder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.500s",
+              "endOffset": "9.700s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.700s",
+              "endOffset": "9.700s",
+              "word": "machen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "9.700s",
+              "endOffset": "10.100s",
+              "word": "ist",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.100s",
+              "endOffset": "10.400s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "10.400s",
+              "endOffset": "11.300s",
+              "word": "Konservierung",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.300s",
+              "endOffset": "11.400s",
+              "word": "von",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.400s",
+              "endOffset": "11.700s",
+              "word": "Wissen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "11.700s",
+              "endOffset": "12.600s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "12.600s",
+              "endOffset": "13.500s",
+              "word": "eigene",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "13.500s",
+              "endOffset": "13.800s",
+              "word": "Erfahrungen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "13.800s",
+              "endOffset": "14.800s",
+              "word": "für",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "14.800s",
+              "endOffset": "15.700s",
+              "word": "Menschen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "15.700s",
+              "endOffset": "16s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "16s",
+              "endOffset": "17.100s",
+              "word": "nicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.100s",
+              "endOffset": "17.800s",
+              "word": "dabei",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.800s",
+              "endOffset": "17.900s",
+              "word": "waren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "17.900s",
+              "endOffset": "18.500s",
+              "word": "oder",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.500s",
+              "endOffset": "18.700s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "18.700s",
+              "endOffset": "19.100s",
+              "word": "später",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.100s",
+              "endOffset": "19.400s",
+              "word": "Leben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "19.400s",
+              "endOffset": "20.500s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "20.500s",
+              "endOffset": "21.100s",
+              "word": "ich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.100s",
+              "endOffset": "21.600s",
+              "word": "sehe",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.600s",
+              "endOffset": "21.700s",
+              "word": "es",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "21.700s",
+              "endOffset": "21.900s",
+              "word": "auch",
+              "confidence": 0.7880921
+            },
+            {
+              "startOffset": "21.900s",
+              "endOffset": "23.200s",
+              "word": "sehr",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.200s",
+              "endOffset": "23.700s",
+              "word": "wichtigen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.700s",
+              "endOffset": "23.900s",
+              "word": "Aspekt",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "23.900s",
+              "endOffset": "25.200s",
+              "word": "Medien",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.200s",
+              "endOffset": "25.300s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.300s",
+              "endOffset": "25.400s",
+              "word": "wählen,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "25.400s",
+              "endOffset": "25.600s",
+              "word": "die",
+              "confidence": 0.9103221
+            },
+            {
+              "startOffset": "25.600s",
+              "endOffset": "26.300s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "26.300s",
+              "endOffset": "26.500s",
+              "word": "Wissen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "26.500s",
+              "endOffset": "27.100s",
+              "word": "konservieren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "27.100s",
+              "endOffset": "27.300s",
+              "word": "können",
+              "confidence": 0.9103221
+            },
+            {
+              "startOffset": "27.300s",
+              "endOffset": "28.400s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "28.400s",
+              "endOffset": "28.700s",
+              "word": "nicht",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "28.700s",
+              "endOffset": "29.900s",
+              "word": "zu",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "29.900s",
+              "endOffset": "30s",
+              "word": "schnell.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "30.740s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " verloren gehen",
+          "confidence": 0.9141081,
+          "words": [
+            {
+              "startOffset": "31.900s",
+              "endOffset": "32.400s",
+              "word": "verloren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "32.400s",
+              "endOffset": "32.600s",
+              "word": "gehen",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "34.570s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " denn dieses Konzept Menschheit funktioniert am besten eigentlich auch nur wenn das Wissen konserviert werden über mehrere Generation weitergegeben werden kann.",
+          "confidence": 0.9131473,
+          "words": [
+            {
+              "startOffset": "35.400s",
+              "endOffset": "35.700s",
+              "word": "denn",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "35.700s",
+              "endOffset": "37s",
+              "word": "dieses",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37s",
+              "endOffset": "37.400s",
+              "word": "Konzept",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.400s",
+              "endOffset": "37.700s",
+              "word": "Menschheit",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "37.700s",
+              "endOffset": "38s",
+              "word": "funktioniert",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "38s",
+              "endOffset": "38.300s",
+              "word": "am",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "38.300s",
+              "endOffset": "38.900s",
+              "word": "besten",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "38.900s",
+              "endOffset": "39.400s",
+              "word": "eigentlich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "39.400s",
+              "endOffset": "39.500s",
+              "word": "auch",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "39.500s",
+              "endOffset": "39.700s",
+              "word": "nur",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "39.700s",
+              "endOffset": "39.900s",
+              "word": "wenn",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "39.900s",
+              "endOffset": "40.200s",
+              "word": "das",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "40.200s",
+              "endOffset": "40.500s",
+              "word": "Wissen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "40.500s",
+              "endOffset": "41.300s",
+              "word": "konserviert",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "41.300s",
+              "endOffset": "41.400s",
+              "word": "werden",
+              "confidence": 0.8939276
+            },
+            {
+              "startOffset": "41.400s",
+              "endOffset": "41.900s",
+              "word": "über",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "41.900s",
+              "endOffset": "42.200s",
+              "word": "mehrere",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.200s",
+              "endOffset": "42.500s",
+              "word": "Generation",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "42.500s",
+              "endOffset": "43.800s",
+              "word": "weitergegeben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "43.800s",
+              "endOffset": "44s",
+              "word": "werden",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "44s",
+              "endOffset": "44.100s",
+              "word": "kann.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "46.290s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Denke mal alle.",
+          "confidence": 0.8554949,
+          "words": [
+            {
+              "startOffset": "48.100s",
+              "endOffset": "48.500s",
+              "word": "Denke",
+              "confidence": 0.79219556
+            },
+            {
+              "startOffset": "48.500s",
+              "endOffset": "48.600s",
+              "word": "mal",
+              "confidence": 0.8601811
+            },
+            {
+              "startOffset": "48.600s",
+              "endOffset": "48.800s",
+              "word": "alle.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "50.240s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Erfindung und Entdeckung die wir haben beruhen eigentlich darauf, dass Wissen von vorgängerzone weitergeben wurde.",
+          "confidence": 0.90951985,
+          "words": [
+            {
+              "startOffset": "51.400s",
+              "endOffset": "51.800s",
+              "word": "Erfindung",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "51.800s",
+              "endOffset": "52.500s",
+              "word": "und",
+              "confidence": 0.9116984
+            },
+            {
+              "startOffset": "52.500s",
+              "endOffset": "53.100s",
+              "word": "Entdeckung",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "53.100s",
+              "endOffset": "53.200s",
+              "word": "die",
+              "confidence": 0.9116984
+            },
+            {
+              "startOffset": "53.200s",
+              "endOffset": "53.400s",
+              "word": "wir",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "53.400s",
+              "endOffset": "53.400s",
+              "word": "haben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "53.400s",
+              "endOffset": "54s",
+              "word": "beruhen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54s",
+              "endOffset": "54s",
+              "word": "eigentlich",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54s",
+              "endOffset": "54.300s",
+              "word": "darauf,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.300s",
+              "endOffset": "54.400s",
+              "word": "dass",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "54.400s",
+              "endOffset": "56s",
+              "word": "Wissen",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "56s",
+              "endOffset": "56.400s",
+              "word": "von",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "56.400s",
+              "endOffset": "57.100s",
+              "word": "vorgängerzone",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "57.100s",
+              "endOffset": "58s",
+              "word": "weitergeben",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "58s",
+              "endOffset": "58.300s",
+              "word": "wurde.",
+              "confidence": 0.8501022
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "59s",
+      "languageCode": "de-de"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " Und ja, die nächsten Folge Generation davon profitieren und darauf aufbauen können.",
+          "confidence": 0.90767384,
+          "words": [
+            {
+              "startOffset": "59.600s",
+              "endOffset": "59.900s",
+              "word": "Und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "59.900s",
+              "endOffset": "60.800s",
+              "word": "ja,",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "60.800s",
+              "endOffset": "61.300s",
+              "word": "die",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "61.300s",
+              "endOffset": "61.700s",
+              "word": "nächsten",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "61.700s",
+              "endOffset": "62s",
+              "word": "Folge",
+              "confidence": 0.8414587
+            },
+            {
+              "startOffset": "62s",
+              "endOffset": "62.500s",
+              "word": "Generation",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "62.500s",
+              "endOffset": "62.800s",
+              "word": "davon",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "62.800s",
+              "endOffset": "63.300s",
+              "word": "profitieren",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "63.300s",
+              "endOffset": "64.500s",
+              "word": "und",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "64.500s",
+              "endOffset": "65.800s",
+              "word": "darauf",
+              "confidence": 0.9141081
+            },
+            {
+              "startOffset": "65.800s",
+              "endOffset": "66.200s",
+              "word": "aufbauen",
+              "confidence": 0.9095463
+            },
+            {
+              "startOffset": "66.200s",
+              "endOffset": "66.300s",
+              "word": "können.",
+              "confidence": 0.9141081
+            }
+          ]
+        }
+      ],
+      "resultEndOffset": "66.960s",
+      "languageCode": "de-de"
+    }
+  ]
+}
