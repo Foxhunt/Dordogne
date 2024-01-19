@@ -20,9 +20,6 @@ export default function Story() {
           transition={{ duration: 10 }}
           onAnimationStart={() => {
             router.prefetch("/dots");
-            sounds.forEach((filename) => {
-              fetch(`/assets/sound/${filename}.mp3`);
-            });
           }}
           onAnimationComplete={() => router.push("/dots")}
         />
