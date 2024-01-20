@@ -8,14 +8,14 @@ const roboto = Roboto({ weight: ["400"], subsets: ["latin"] });
 import { extend } from "@react-three/fiber";
 import {
   AmbientLight,
-  PointLight,
   Group,
   Mesh,
-  SphereGeometry,
-  PlaneGeometry,
-  PositionalAudio,
   MeshStandardMaterial,
+  PlaneGeometry,
+  PointLight,
+  PositionalAudio,
   RingGeometry,
+  SphereGeometry,
 } from "three";
 
 extend({
