@@ -44,45 +44,39 @@ export default function DotsGroup() {
     (state) => state.controls as unknown as CameraControls,
   );
 
-  const [rotate, setRotate] = useState(true);
-
   const groupRef = useRef<GroupProps>(null);
-
-  useFrame(() => {
-    if (rotate) {
-      groupRef.current?.rotateY?.(0.001);
-    }
-  });
 
   const positions = useMemo(
     () => sounds.map((filename) => ({ filename, ...getPoint() })),
     [],
   );
-
-  const selected = useSelect();
-
   useEffect(() => {
     controls?.saveState();
   }, [controls]);
+
+  const selected = useSelect();
+
+  useFrame(() => {
+    if (!selected[0]) {
+      groupRef.current?.rotateY?.(0.001);
+    }
+  });
 
   useEffect(() => {
     if (selected[0]) {
       const position = new Vector3();
       selected[0].getWorldPosition(position);
       controls?.setLookAt(
-        position.x,
+        position.x + 2,
         position.y,
-        position.z + 50,
-        position.x,
+        position.z + 30,
+        position.x + 2,
         position.y,
         position.z,
         true,
       );
-
-      setRotate(false);
     } else {
       controls?.reset(true);
-      setRotate(true);
     }
   }, [controls, selected]);
 
