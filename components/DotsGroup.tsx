@@ -72,7 +72,7 @@ export default function DotsGroup() {
       controls?.setLookAt(
         position.x,
         position.y,
-        position.z + 30,
+        position.z + 50,
         position.x,
         position.y,
         position.z,
