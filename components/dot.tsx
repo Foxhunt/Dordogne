@@ -51,7 +51,7 @@ export default function Dot({ filename, position }: DotProps) {
       const audio = new Audio(`/assets/sound/${filename}.mp3`);
       audio.loop = false;
       audio.autoplay = false;
-      audio.preload = "auto";
+      audio.preload = "metadata";
 
       audioRef.current = audio;
 
