@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef } from "react";
 
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion-3d";
@@ -6,7 +6,7 @@ import { motion } from "framer-motion-3d";
 import { CameraControls, useSelect } from "@react-three/drei";
 import { GroupProps, useFrame, useThree } from "@react-three/fiber";
 import { Vector3 } from "three";
-import Dot from "./dot";
+import Dot from "./Dot";
 
 export const sounds = [
   "Arthur",

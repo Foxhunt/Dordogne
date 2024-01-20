@@ -1,8 +1,8 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useIsPresent } from "framer-motion";
 
-const images = [
+export const images = [
   "Bilder", // German
   "pictures", // English
   "images", // French
@@ -35,7 +35,7 @@ const images = [
   "bilder", // Norwegian
 ];
 
-const why = [
+export const why = [
   "Wieso", // German
   "Why", // English
   "Pourquoi", // French

@@ -1,7 +1,9 @@
-import OpeningWords from "@/components/openingWords";
-import { AnimatePresence, motion } from "framer-motion";
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+
+import { useRouter } from "next/router";
+import { AnimatePresence, motion } from "framer-motion";
+
+import OpeningWords from "@/components/OpeningWords";
 
 const timeToStory = 5;
 

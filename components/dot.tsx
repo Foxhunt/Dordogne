@@ -1,9 +1,10 @@
+import { useEffect, useRef, useState } from "react";
+
+import { DoubleSide, Object3D } from "three";
 import { Billboard, Text, useSelect } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion-3d";
-import { useEffect, useRef, useState } from "react";
-import { DoubleSide, Object3D } from "three";
 
 type DotProps = {
   filename: string;
@@ -79,7 +80,6 @@ export default function Dot({ filename, position }: DotProps) {
   const [visited, setVisited] = useState(false);
   useEffect(() => {
     const audio = audioRef.current;
-    console.log(isSelected);
     if (isSelected) {
       audio.load();
       audio.play();

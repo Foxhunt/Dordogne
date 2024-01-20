@@ -4,9 +4,7 @@ import { useRouter } from "next/router";
 import { LayoutCamera, MotionCanvas } from "framer-motion-3d";
 import { Text } from "@react-three/drei";
 
-import Images from "@/components/images";
-
-import { sounds } from "@/components/DotsGroup";
+import Images from "@/components/Images";
 
 export default function Story() {
   const router = useRouter();
