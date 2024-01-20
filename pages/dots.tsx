@@ -1,6 +1,6 @@
 import { LayoutCamera, MotionCanvas, motion } from "framer-motion-3d";
 
-import { CameraControls, Select } from "@react-three/drei";
+import { Billboard, CameraControls, Select, Text } from "@react-three/drei";
 import {
   Bloom,
   DepthOfField,
@@ -51,7 +51,7 @@ export default function Dots() {
           ref={sunRef}
           key={"why?"}
           initial={{ scale: 0 }}
-          animate={{ scale: 2, transition: { duration: 1 } }}
+          animate={{ scale: 2, transition: { duration: 0.1 } }}
         >
           <motion.sphereGeometry />
           <motion.meshStandardMaterial
@@ -60,17 +60,22 @@ export default function Dots() {
             metalness={0.3}
             emissive={"#ffffff"}
             // @ts-ignore
-            initial={{ emissiveIntensity: 0.1 }}
+            initial={{ emissiveIntensity: 0 }}
             animate={{
               // @ts-ignore
-              emissiveIntensity: 0.5,
+              emissiveIntensity: 1,
               transition: {
                 repeat: Infinity,
                 repeatType: "mirror",
-                duration: 4,
+                duration: 10,
               },
             }}
           />
+          <Billboard>
+            <Text color="white" anchorX={"center"} position={[0, 2, 0]}>
+              Wieso Bilder?
+            </Text>
+          </Billboard>
         </motion.mesh>
         <EffectComposer disableNormalPass>
           <Bloom mipmapBlur intensity={5} />
