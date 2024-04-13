@@ -11,7 +11,7 @@ type EffectsProps = {
 
 export default function Effects({ sunRef }: EffectsProps) {
   return (
-    <EffectComposer disableNormalPass>
+    <EffectComposer>
       <Bloom mipmapBlur intensity={5} />
       <DepthOfField target={[0, 0, 0]} blur={10} bokehScale={1} />
       <GodRays
