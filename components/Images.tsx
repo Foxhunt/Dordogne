@@ -9,20 +9,28 @@ type Image = {
 
 const images: Image[] = [
   // right
-  { position: [1.2, 0, -10], rotation: [0, -0.1, 0], url: "" },
+  {
+    position: [1.2, 0, -10],
+    rotation: [0, -0.1, 0],
+    url: "/assets/image/DSC04806.jpg",
+  },
   // left
-  { position: [-1.2, 0, -5], rotation: [0, 0.1, 0], url: "" },
+  {
+    position: [-1.2, 0, -5],
+    rotation: [0, 0.1, 0],
+    url: "/assets/image/DSC04806.jpg",
+  },
 ];
 
 export default function Images() {
-  return images.map(({ position, rotation }, index) => (
+  return images.map(({ position, rotation, url }, index) => (
     <Image
       key={index}
       position={position}
       rotation={rotation}
       scale={[2, 3]}
       zoom={1}
-      url={"https://picsum.photos/300.webp"}
+      url={`/_next/image?url=${url}&w=640&q=75`}
     />
   ));
 }
