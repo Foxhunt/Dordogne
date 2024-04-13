@@ -1,10 +1,11 @@
 import { forwardRef, useEffect, useState } from "react";
 
-import { Billboard, Text } from "@react-three/drei";
+import { Billboard, MeshTransmissionMaterial, Text } from "@react-three/drei";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion-3d";
 
 import { images, why } from "./OpeningWords";
+import { Color } from "three";
 
 const CenterDot = forwardRef(function CenterDot(props, ref) {
   const [index, setIndex] = useState(0);
@@ -25,22 +26,17 @@ const CenterDot = forwardRef(function CenterDot(props, ref) {
       animate={{ scale: 2, transition: { duration: 0.1 } }}
     >
       <motion.sphereGeometry />
-      <motion.meshStandardMaterial
-        transparent
-        roughness={0.8}
-        metalness={0.3}
-        emissive={"#ffffff"}
-        // @ts-ignore
-        initial={{ emissiveIntensity: 0 }}
-        animate={{
-          // @ts-ignore
-          emissiveIntensity: 1,
-          transition: {
-            repeat: Infinity,
-            repeatType: "mirror",
-            duration: 10,
-          },
-        }}
+      <MeshTransmissionMaterial
+        transmission={4}
+        samples={2}
+        roughness={0.3}
+        chromaticAberration={0.1}
+        ior={1}
+        thickness={2}
+        clearcoat={1}
+        clearcoatRoughness={1}
+        color={new Color(0xffffff)}
+        background={new Color(0x000000)}
       />
       <Billboard>
         <AnimatePresence>
