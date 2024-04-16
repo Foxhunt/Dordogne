@@ -1,44 +1,42 @@
 /* eslint-disable jsx-a11y/alt-text */
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import { Text } from "@react-three/drei";
-import { LayoutCamera, MotionCanvas } from "framer-motion-3d";
-
-import Images from "@/components/Images";
 import {
   useMotionValueEvent,
   useScroll,
-  useTime,
   useTransform,
   cubicBezier,
+  motion,
 } from "framer-motion";
+import { LayoutCamera, MotionCanvas } from "framer-motion-3d";
+
+import Content from "@/components/Content";
 
 export default function Story() {
   const router = useRouter();
 
   const { scrollYProgress } = useScroll();
-  const time = useTime();
 
-  // const zPosition = useTransform(
-  //   time,
-  //   [0, 0.4 * 20000, 0.8 * 20000, 20000],
-  //   [10, 0, -50, -60],
-  //   {
-  //     ease: cubicBezier(0.49, 0.04, 0.61, 0.84),
-  //   },
-  // );
+  const zPosition = useTransform(scrollYProgress, [0, 1], [24, -103], {
+    ease: cubicBezier(0.6, 0.39, 0.66, 0.8),
+  });
 
-  const scroll = useTransform(scrollYProgress, [0, 1], [0, 90 * 1000]);
-
-  const zPosition = useTransform(scroll, [0, 90 * 1000], [20, -103], {
+  const opacity = useTransform(zPosition, [24, 23], [1, 0], {
     ease: cubicBezier(0.6, 0.39, 0.66, 0.8),
   });
 
   useMotionValueEvent(zPosition, "change", (latestValue) => {
-    if (latestValue <= -103) {
+    console.log("zPosition:", latestValue);
+
+    if (latestValue <= -100) {
       router.push("/dots");
     }
   });
+
+  useEffect(() => {
+    router.prefetch("/dots");
+  }, [router]);
 
   return (
     <main className={`h-[500vh] bg-black text-white`}>
@@ -47,46 +45,16 @@ export default function Story() {
           <LayoutCamera
             // @ts-ignore
             position={[0, 0, zPosition]}
-            // animate={{ x: 0, y: 0, z: -60 }}
-            transition={{
-              duration: 20,
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-            onAnimationStart={() => {
-              router.prefetch("/dots");
-            }}
-            onAnimationComplete={() => router.push("/dots")}
           />
-          <Images />
-          <Text
-            outlineColor="black"
-            outlineWidth={0.07}
-            outlineOpacity={1}
-            anchorX="center"
-            anchorY="middle"
-            textAlign="justify"
-            scale={0.1}
-            position={[0, -0.1, 15]}
-            maxWidth={20}
-          >
-            Warum sich Menschen Bilder machen?
-          </Text>
-          <Text
-            outlineColor="black"
-            outlineWidth={0.07}
-            outlineOpacity={1}
-            anchorX="center"
-            anchorY="middle"
-            textAlign="center"
-            scale={0.1}
-            position={[0, 0.1, 10]}
-            maxWidth={15}
-          >
-            Diese Frage stellten sich 26 Studierende der Hochschule Düsseldorf.
-          </Text>
+          <Content zPosition={zPosition} />
         </MotionCanvas>
       </div>
+      <motion.div
+        style={{ opacity }}
+        className={`fixed bottom-0 left-0 right-0 text-center pb-10`}
+      >
+        scroll all the way down
+      </motion.div>
     </main>
   );
 }

@@ -1,5 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Billboard, Image, Text } from "@react-three/drei";
+import { useState } from "react";
+
+import { MotionValue, useMotionValueEvent, useTransform } from "framer-motion";
+import { Text } from "@react-three/drei";
+
+import Image from "./Image";
 
 type Image = {
   position?: [x: number, y: number, z: number];
@@ -27,42 +32,42 @@ const images: Image[] = [
   {
     rotation: [0, 0.7, 0],
     url: "/assets/image/1.jpg",
-    text: "Sie besuchten einige der ersten von Menschen geschaffenen Abbildungen.",
+    text: "Auf ihrer Reise besuchten Sie einige der ersten von Menschen geschaffenen Abbildungen.",
   },
   {
     rotation: [0, -0.7, 0],
     url: "/assets/image/2.jpg",
-    text: "Sie erkundeten die Höhlen und lauschten den Geschichten ihrer Behüter.",
+    text: "Sie erkundeten Höhlen und lauschten den Geschichten ihrer Behüter.",
   },
   {
     rotation: [0, 0.7, 0],
     url: "/assets/image/3.jpg",
-    text: "Sie hörten von der Entstehung und dem Ursprung der Abbildungen.",
+    text: "Sie hörten von den Legenden um die Entstehung und dem Ursprung der Abbildungen.",
   },
   {
     rotation: [0, -0.7, 0],
     url: "/assets/image/4.jpg",
-    text: "Sie betrachteten die Gemälde und versuchten sich in ihre Erschaffer hineinzuversetzen.",
+    text: "Sie betrachteten die Werke und setzten sich in ihre Erschaffer hinein.",
   },
   {
     rotation: [0, 0.7, 0],
     url: "/assets/image/5.jpg",
-    text: "Sie tauchten ein in die Welt der Abbildungen und ließen sich von ihnen inspirieren.",
+    text: "Sie tauchten in die Welt der Abbildungen ein und ließen sich von ihnen inspirieren.",
   },
   {
     rotation: [0, -0.7, 0],
-    url: "/assets/image/6.jpg",
-    text: "Sie selbst wurden zu Erschaffern.",
-  },
-  {
-    rotation: [0, 0.7, 0],
     url: "/assets/image/7.jpg",
     text: "Sie arbeiteten an ihren eigenen Abbildungen.",
   },
   {
+    rotation: [0, 0.7, 0],
+    url: "/assets/image/6.jpg",
+    text: "Und wurden selbst zu Erschaffern.",
+  },
+  {
     rotation: [0, -0.7, 0],
     url: "/assets/image/8.jpg",
-    text: "Sie stellten sich die Frage:",
+    text: "Dabei stellten sie sich die Frage:",
   },
   {
     rotation: [0, 0.7, 0],
@@ -77,71 +82,75 @@ const images: Image[] = [
   },
 ];
 
-export default function Images() {
-  return images.map(
-    ({ rotation, scale = [2.5, 4], url, text }, index, array) => {
-      const distance = 12;
+interface ImagesProps {
+  zPosition: MotionValue<number>;
+}
 
-      const imagePositionX = 1;
+export default function Images({ zPosition }: ImagesProps) {
+  const visibilityValue1 = useTransform(zPosition, [24, 20], [1, 0]);
 
-      const textPositionX = 0.6;
-      const textPositionY = 0.6;
+  const [visibility1, setVisibility1] = useState(visibilityValue1.get());
 
-      return (
-        <Billboard key={index}>
-          <Image
-            position={
-              array.length - 1 === index
-                ? // last image
-                  [0, 0, index * -distance]
-                : [
-                    index % 2 ? imagePositionX : -imagePositionX,
-                    0,
-                    index * -distance,
-                  ]
-            }
-            rotation={rotation}
-            scale={scale}
-            zoom={1}
-            url={`/_next/image?url=${url}&w=1080&q=90`}
-          />
-          <Text
-            outlineColor="black"
-            outlineWidth={0.1}
-            fontSize={2}
-            outlineOpacity={1}
-            anchorX={
-              array.length - 1 === index
-                ? "center"
-                : index % 2
-                  ? "right"
-                  : "left"
-            }
-            anchorY="middle"
-            textAlign={
-              array.length - 1 === index
-                ? "center"
-                : index % 2
-                  ? "right"
-                  : "left"
-            }
-            scale={0.1}
-            position={
-              array.length - 1 === index
-                ? // last image
-                  [0, 0, index * -distance + 5]
-                : [
-                    index % 2 ? textPositionX : -textPositionX,
-                    index % 2 ? -textPositionY : textPositionY,
-                    index * -distance,
-                  ]
-            }
-            maxWidth={30}
-          >
-            {text}
-          </Text>
-        </Billboard>
-      );
-    },
+  useMotionValueEvent(visibilityValue1, "change", (latestValue) => {
+    setVisibility1(latestValue);
+    console.log("Front Text 1 visibility", latestValue);
+  });
+
+  const visibilityValue2 = useTransform(
+    zPosition,
+    [23, 21.5, 20, 15],
+    [0, 1, 1, 0],
+  );
+
+  const [visibility2, setVisibility2] = useState(visibilityValue2.get());
+
+  useMotionValueEvent(visibilityValue2, "change", (latestValue) => {
+    setVisibility2(latestValue);
+    console.log("Front Text 2 visibility", latestValue);
+  });
+
+  return (
+    <>
+      {images.map(({ rotation, scale, url, text }, index, array) => (
+        <Image
+          key={index}
+          zPosition={zPosition}
+          rotation={rotation}
+          scale={scale}
+          url={url}
+          text={text}
+          index={index}
+          isLast={array.length - 1 === index}
+        />
+      ))}
+      <Text
+        outlineColor="black"
+        outlineWidth={0.07}
+        outlineOpacity={visibility1}
+        fillOpacity={visibility1}
+        anchorX="center"
+        anchorY="middle"
+        textAlign="justify"
+        scale={0.1}
+        position={[0, -0.1 - 1 * (1 - visibility1), 20]}
+        maxWidth={20}
+      >
+        Warum sich Menschen Bilder machen?
+      </Text>
+      <Text
+        outlineColor="black"
+        outlineWidth={0.07}
+        outlineOpacity={visibility2}
+        fillOpacity={visibility2}
+        anchorX="center"
+        anchorY="middle"
+        textAlign="center"
+        scale={0.1}
+        position={[0, 0 + 1 * (1 - visibility2), 16]}
+        maxWidth={15}
+      >
+        Diese Frage stellten sich 26 Studierende der Hochschule Düsseldorf.
+      </Text>
+    </>
   );
 }
