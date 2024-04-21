@@ -37,7 +37,7 @@ const images: Image[] = [
   {
     rotation: [0, -0.7, 0],
     url: "/assets/image/2.jpg",
-    text: "Sie erkundeten Höhlen und lauschten den Geschichten ihrer Behüter.",
+    text: "Sie erkundeten Höhlen und lauschten den Geschichten ihrer Hüter und Hüterinnen.",
   },
   {
     rotation: [0, 0.7, 0],
@@ -47,7 +47,7 @@ const images: Image[] = [
   {
     rotation: [0, -0.7, 0],
     url: "/assets/image/4.jpg",
-    text: "Sie betrachteten die Werke und setzten sich in ihre Erschaffer hinein.",
+    text: "Sie betrachteten die Werke und versetzten sich in die Lage ihre Schöpfer und Schöpferinnen.",
   },
   {
     rotation: [0, 0.7, 0],
@@ -62,7 +62,7 @@ const images: Image[] = [
   {
     rotation: [0, 0.7, 0],
     url: "/assets/image/6.jpg",
-    text: "Und wurden selbst zu Erschaffern.",
+    text: "Und wurden selbst zu Erschaffenden.",
   },
   {
     rotation: [0, -0.7, 0],
