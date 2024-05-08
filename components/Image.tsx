@@ -78,7 +78,7 @@ export default function Image({
           opacity={isLast ? 1 : visibility}
           scale={scale}
           zoom={1}
-          url={`/_next/image?url=${url}&w=1080&q=90`}
+          url={`/_next/image?url=${url}&w=384&q=90`}
         />
         <Text
           fontSize={3}
