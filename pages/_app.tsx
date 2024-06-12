@@ -41,12 +41,15 @@ export default function App({ Component, pageProps }: AppProps) {
     const backToHome = (event: any) => {
       clearTimeout(homeTimeout);
       console.log(event);
-      homeTimeout = setTimeout(() => {
-        if (router.asPath !== "/") {
-          router.push("/");
-          console.log("back to home");
-        }
-      }, 10 * 1000);
+      homeTimeout = setTimeout(
+        () => {
+          if (router.asPath !== "/") {
+            router.push("/");
+            console.log("back to home");
+          }
+        },
+        5 * 60 * 1000,
+      );
     };
 
     router.events.on("routeChangeComplete", backToHome);
