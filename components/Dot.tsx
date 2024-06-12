@@ -49,7 +49,11 @@ export default function Dot({ filename, position }: DotProps) {
 
   useEffect(() => {
     if (!audioRef.current) {
-      const audio = new Audio(`/assets/sound/${filename}.mp3`);
+      const filePath = `/assets/sound/${filename}.mp3`;
+
+      fetch(filePath);
+
+      const audio = new Audio(filePath);
       audio.loop = false;
       audio.autoplay = false;
       audio.preload = "metadata";
