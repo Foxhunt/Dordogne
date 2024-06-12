@@ -17,6 +17,8 @@ import {
   RingGeometry,
   SphereGeometry,
 } from "three";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 extend({
   AmbientLight,
@@ -31,6 +33,32 @@ extend({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+
+  useEffect(() => {
+    let homeTimeout: NodeJS.Timeout;
+
+    const backToHome = (event: any) => {
+      clearTimeout(homeTimeout);
+      console.log(event);
+      homeTimeout = setTimeout(() => {
+        if (router.asPath !== "/") {
+          router.push("/");
+          console.log("back to home");
+        }
+      }, 10 * 1000);
+    };
+
+    router.events.on("routeChangeComplete", backToHome);
+    window.addEventListener("mousemove", backToHome);
+
+    return () => {
+      clearTimeout(homeTimeout);
+      window.removeEventListener("mousemove", backToHome);
+      router.events.off("routeChangeComplete", backToHome);
+    };
+  }, [router]);
+
   return (
     <>
       <style jsx global>{`
